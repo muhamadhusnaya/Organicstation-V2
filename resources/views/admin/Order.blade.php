@@ -61,11 +61,31 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                                <th></th>
+                                <th>No.Order</th>
+                                <th>Harga</th>
+                                <th>Nama Konsumen</th>
+                                <th>Payment Status</th>
+                                <th>Deskripsi Pesanan</th>
+                                <th>Tanggal Pesanan</th>
                             </tr>
                         </thead>
                         <tbody>
-
+                            <tr>
+                                <td>0001 </td>
+                                <td>Rp. 12.000</td>
+                                <td>Fajar Ilham</td>
+                                <td><span class="payment-status">Pending</span></td>
+                                <td>Es Teh Manis <br> Meja 4</td>
+                                <td>15-12-2025</td>
+                            </tr>
+                            <tr>
+                                <td>0002</td>
+                                <td>Rp. 16.000</td>
+                                <td>Fajar Ilham</td>
+                                <td><span class="payment-status">SUCCES</span></td>
+                                <td>Es Teh Manis <br> Meja 4</td>
+                                <td>16-12-2025</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
