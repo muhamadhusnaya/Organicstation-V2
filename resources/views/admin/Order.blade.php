@@ -73,7 +73,7 @@
                             <tr>
                                 <td>0001 </td>
                                 <td>Rp. 12.000</td>
-                                <td>Fajar Ilham</td>
+                                <td>Bintang Ananta</td>
                                 <td><span class="payment-status">Pending</span></td>
                                 <td>Es Teh Manis <br> Meja 4</td>
                                 <td>15-12-2025</td>
@@ -81,10 +81,74 @@
                             <tr>
                                 <td>0002</td>
                                 <td>Rp. 16.000</td>
+                                <td>Avicenna</td>
+                                <td><span class="payment-status">CENCEL</span></td>
+                                <td>Es Jeruk Manis <br> Meja 1</td>
+                                <td>15-12-2025</td>
+                            </tr>
+                            <tr>
+                                <td>0003</td>
+                                <td>Rp. 16.000</td>
+                                <td>Saddam Raihan</td>
+                                <td><span class="payment-status">SUCCES</span></td>
+                                <td>Es Teh Manis <br> Meja 3</td>
+                                <td>16-12-2025</td>
+                            </tr>
+                            <tr>
+                                <td>0004</td>
+                                <td>Rp. 16.000</td>
+                                <td>Ananta Surya</td>
+                                <td><span class="payment-status">SUCCES</span></td>
+                                <td>Es Teh Manis <br> Meja 2</td>
+                                <td>15-12-2025</td>
+                            </tr>
+                            <tr>
+                                <td>0005</td>
+                                <td>Rp. 16.000</td>
                                 <td>Fajar Ilham</td>
                                 <td><span class="payment-status">SUCCES</span></td>
-                                <td>Es Teh Manis <br> Meja 4</td>
-                                <td>16-12-2025</td>
+                                <td>Es Teh Manis <br> Meja 5</td>
+                                <td>15-12-2025</td>
+                            </tr>
+                            <tr>
+                                <td>0006</td>
+                                <td>Rp. 16.000</td>
+                                <td>Aditya Hasan</td>
+                                <td><span class="payment-status">CENCEL</span></td>
+                                <td>Es Chocolatte <br> Meja 8</td>
+                                <td>15-12-2025</td>
+                            </tr>
+                            <tr>
+                                <td>0007</td>
+                                <td>Rp. 16.000</td>
+                                <td>Rayhan Aditya</td>
+                                <td><span class="payment-status">SUCCES</span></td>
+                                <td>Es Jeruk Manis <br> Meja 4</td>
+                                <td>15-12-2025</td>
+                            </tr>
+                            <tr>
+                                <td>0008</td>
+                                <td>Rp. 16.000</td>
+                                <td>Syifaa Arum</td>
+                                <td><span class="payment-status">CENCEL</span></td>
+                                <td>Es Jeruk Manis <br> Meja 4</td>
+                                <td>15-12-2025</td>
+                            </tr>
+                            <tr>
+                                <td>0009</td>
+                                <td>Rp. 16.000</td>
+                                <td>Harun Arosyid</td>
+                                <td><span class="payment-status">SUCCES</span></td>
+                                <td>Es Jeruk Manis <br> Meja 4</td>
+                                <td>15-12-2025</td>
+                            </tr>
+                            <tr>
+                                <td>0010</td>
+                                <td>Rp. 16.000</td>
+                                <td>Naufal Aditya</td>
+                                <td><span class="payment-status">PENDING</span></td>
+                                <td>Es Jeruk Manis <br> Meja 4</td>
+                                <td>15-12-2025</td>
                             </tr>
                         </tbody>
                     </table>

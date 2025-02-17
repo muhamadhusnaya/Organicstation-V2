@@ -12,18 +12,20 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <title>Dashboard</title>
+    <title>Create Category</title>
 </head>
 
 <body>
     <x-navbar></x-navbar>
     <section class="home">
-        <div class="text">Category</div>
         <div class="content mx-5">
-            <div class="content-preview d-flex align-items-center py-2">
-                <a href="{{ url ('admin/category') }}">Category</a>
-                <i class='bx bx-chevrons-right'></i>
-                <a href="{{ url ('admin/category/create') }}">Create Category</a>
+            <div class="content-top">
+                <div class="content-preview d-flex align-items-center py-2">
+                    <a href="{{ url ('admin/category') }}">Category</a>
+                    <i class='bx bx-chevrons-right'></i>
+                    <a href="{{ url ('admin/category-create') }}">Create Category</a>
+                </div>
+                <span class="title-content">Create Category</span>
             </div>
             <div class="content-form py-2">
                 <form action="">

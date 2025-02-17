@@ -363,15 +363,21 @@ body.dark .switch::before{
     -o-transition: var(--tran-05);
 }
 
-.home .text{
-    top: 40px;
-    margin-bottom: 30px;
-    font-size: 40px;
-    font-weight: 500;
-    color: var(--text-color);
-    padding: 8px 40px;
+.home .content-top{
+    height: auto;
+    width: 100vh;
+    margin-top: 20px;
 }
 
+.home .content-top a,
+.home .content-top i{
+    font-size: medium;
+}
+.home .content-top .title-content{
+    margin-bottom: 35px;
+    font-size: xx-large;
+    font-weight: 600;
+}
 
 .home .content .content-preview a{
     text-decoration: none;
@@ -382,6 +388,26 @@ body.dark .switch::before{
 .home .content .content-preview i{
     font-size: 25px;
     padding: 1px 5px;
+}
+
+.home .content .content-list{
+    background: #FFF;
+    margin-top: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.home .content .content-list .list{
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
 
 .home .content .content-form .input-category label{
