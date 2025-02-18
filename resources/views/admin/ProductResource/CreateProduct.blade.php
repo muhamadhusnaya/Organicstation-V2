@@ -16,12 +16,14 @@
 <body>
     <x-navbar></x-navbar>
     <section class="home">
-        <div class="text">Product</div>
         <div class="content mx-5">
-            <div class="content-preview d-flex align-items-center py-2">
-                <a href="{{ url ('admin/product') }}">Product</a>
-                <i class='bx bx-chevrons-right'></i>
-                <a href="{{ url ('admin/product-create') }}">Create Product</a>
+            <div class="content-top">
+                <div class="content-preview d-flex align-items-center py-2">
+                    <a href="{{ url ('admin/product') }}">Product</a>
+                    <i class='bx bx-chevrons-right'></i>
+                    <a href="{{ url ('admin/product-create') }}">Create Product</a>
+                </div>
+                <span class="title-content">Product</span>
             </div>
             <div class="content-form py-2 form">
                 <form action="">

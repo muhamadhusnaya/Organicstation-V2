@@ -416,7 +416,7 @@ body.dark .switch::before{
 }
 
 .home .content .content-form .input-category input{
-    width: 420px;
+    width: 455px;
     border-radius: 6px;
     transition: var(--tran-04);
     -webkit-border-radius: 6px;
@@ -439,6 +439,11 @@ body.dark .switch::before{
 }
 .home .form .input-product .content-input input{
     width: 300px;
+    transition: var(--tran-04);
+    -webkit-transition: var(--tran-04);
+    -moz-transition: var(--tran-04);
+    -ms-transition: var(--tran-04);
+    -o-transition: var(--tran-04);
 }
 .home .form .input-product .input-imgproduct{
     height: 190px;
@@ -517,7 +522,7 @@ body.dark .switch::before{
 }
 
 .sidebar.close ~ .home .content .content-form .input-category input{
-    width: 510px;
+    width: 545px;
 }
 
 .sidebar.close ~ .home .form .input-product{
