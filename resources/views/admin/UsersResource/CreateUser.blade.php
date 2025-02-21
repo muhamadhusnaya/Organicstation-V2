@@ -28,7 +28,7 @@
                 <span class="title-content">Users</span>
             </div>
             <div class="content-form py-2">
-                <form action="">
+                <form action="" method="POST">
                     <div class="bg-light p-4 rounded-3 input-category">
                         <div class="d-flex justify-content-between">
                             <div class="mb-4">
@@ -50,6 +50,10 @@
                                 <input type="password" class="form-control form-control-lg" id="password">
                             </div>
                         </div>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-danger">Cancel</button>
                     </div>
                 </form>
             </div>

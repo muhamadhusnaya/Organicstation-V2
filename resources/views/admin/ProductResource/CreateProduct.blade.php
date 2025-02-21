@@ -28,7 +28,7 @@
             <div class="content-form py-2 form">
                 <form action="">
                     <div class="d-flex">
-                        <div class="flex-column me-3 mb-4">
+                        <div class="flex-column me-3 mb-1">
                             <div class="bg-light p-4 rounded-3 input-product">
                                 <div class="d-flex justify-content-between">
                                     <div class="mb-3 content-input">
@@ -90,6 +90,10 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-danger">Cancel</button>
                     </div>
                 </form>
             </div>

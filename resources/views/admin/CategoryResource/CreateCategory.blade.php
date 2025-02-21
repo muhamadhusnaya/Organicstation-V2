@@ -43,6 +43,10 @@
                         <label for="formFileLg" class="form-label">Image</label>
                         <input class="form-control form-control-lg w-100" id="image" type="file">
                     </div>
+                    <div class="form-button">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-danger">Cancel</button>
+                    </div>
                 </form>
             </div>
         </div>

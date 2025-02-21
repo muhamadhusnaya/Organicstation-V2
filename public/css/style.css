@@ -429,6 +429,15 @@ body.dark .switch::before{
     -o-transition: var(--tran-04);
 }
 
+.home .content .content-form .form-button {
+    padding: 20px 1px 10px;
+}
+
+.home .content .content-form .form-button button{
+    width: 120px;
+
+}
+
 .home .form .input-product{
     width: 720px;
     transition: var(--tran-04);
