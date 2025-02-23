@@ -8,6 +8,14 @@ Route::get('/', function () {
 Route::get('/admin/dashboard', function () {
     return view('admin.Dashboard');
 });
+
+Route::get('/admin/brand', function () {
+    return view('admin.Brand');
+});
+Route::get('/admin/brand-create', function () {
+    return view('admin.BrandResource.CreateBrand');
+});
+
 Route::get('/admin/category', function () {
     return view('admin.Category');
 });

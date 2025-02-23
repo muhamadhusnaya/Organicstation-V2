@@ -26,9 +26,13 @@
                 </div>
                 <span class="title-content">Categories</span>
             </div>
+            <div class="button-create">
+                <button type="button" class="btn btn-warning">Tambah Category</button>
+            </div>
             <div class="content-list">
                 <div class="search-menu">
                     <i class="bx bx-search"></i>
+                    <input type="text" placeholder="Search....">
                 </div>
                 <div class="list">
                     <table class="table">
