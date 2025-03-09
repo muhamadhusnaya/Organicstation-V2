@@ -12,23 +12,36 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <title>Admin - Users</title>
+    <title>Dashboard</title>
 </head>
 
 <body>
     <x-navbar></x-navbar>
     <section class="home">
+        <div class="text">Category</div>
         <div class="content mx-5">
-            <div class="content-top">
-                <div class="content-preview d-flex align-items-center py-2">
-                    <a href="">Users</a>
-                    <i class="bx bx-chevrons-right"></i>
-                    <a href="">List</a>
-                </div>
-                <span class="title-content">Users</span>
+            <div class="content-preview d-flex align-items-center py-2">
+                <a href="{{ url ('admin/category') }}">Category</a>
+                <i class='bx bx-chevrons-right'></i>
+                <a href="{{ url ('admin/category/create') }}">Create Category</a>
             </div>
-            <div class="list-users">
-
+            <div class="content-form py-2">
+                <form action="">
+                    <div class="bg-light p-4 rounded-3 input-category">
+                        <div class="d-flex justify-content-between">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Jenis Category</label>
+                                <input type="text" class="form-control form-control-lg" id="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="slug" class="form-label">Slug</label>
+                                <input type="text" id="price" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                        <label for="formFileLg" class="form-label">Image</label>
+                        <input class="form-control form-control-lg w-100" id="image" type="file">
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -50,5 +63,4 @@
     </script>
     -->
 </body>
-
 </html>
