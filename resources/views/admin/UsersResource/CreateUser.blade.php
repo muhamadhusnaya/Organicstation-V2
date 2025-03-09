@@ -32,8 +32,8 @@
                     <div class="bg-light p-4 rounded-3 input-category">
                         <div class="d-flex justify-content-between">
                             <div class="mb-4">
-                                <label for="name" class="form-label">Nama</label>
-                                <input type="text" class="form-control form-control-lg" id="name">
+                                <label for="name" class="form-label">Username</label>
+                                <input type="text" class="form-control form-control-lg" id="username">
                             </div>
                             <div class="mb-4">
                                 <label for="email" class="form-label">Email Address</label>

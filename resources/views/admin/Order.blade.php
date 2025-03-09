@@ -21,7 +21,7 @@
         <div class="content mx-5">
             <div class="review-order">
                 <div class="d-flex">
-                    <div class="search-content">
+                    <div class="search-order">
                         <input type="search" class="align-content-between" placeholder="Telusuri Pesanan....">
                         <i class='bx bx-search icon'></i>
                     </div>

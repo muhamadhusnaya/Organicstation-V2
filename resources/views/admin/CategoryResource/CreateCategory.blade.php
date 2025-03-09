@@ -33,15 +33,15 @@
                         <div class="d-flex justify-content-between">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Jenis Category</label>
-                                <input type="text" class="form-control form-control-lg" id="name">
+                                <input type="text" id="category_type" class="form-control form-control-lg">
                             </div>
                             <div class="mb-3">
                                 <label for="slug" class="form-label">Slug</label>
-                                <input type="text" id="price" class="form-control form-control-lg">
+                                <input type="text" id="slug" class="form-control form-control-lg">
                             </div>
                         </div>
                         <label for="formFileLg" class="form-label">Image</label>
-                        <input class="form-control form-control-lg w-100" id="image" type="file">
+                        <input type="file" id="image" class="form-control form-control-lg w-100">
                     </div>
                     <div class="form-button">
                         <button type="submit" class="btn btn-primary">Save</button>

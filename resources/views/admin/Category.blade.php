@@ -27,29 +27,32 @@
                 <span class="title-content">Categories</span>
             </div>
             <div class="button-create">
-                <button type="button" class="btn btn-warning">Tambah Category</button>
+                <a type="button" class="btn btn-warning" href="{{ url('/admin/category-create') }}">Tambah Category</a>
             </div>
             <div class="content-list">
-                <div class="search-menu">
-                    <i class="bx bx-search"></i>
-                    <input type="text" placeholder="Search....">
+                <div class="head-list d-flex justify-content-end">
+                    <div class="search-category d-flex align-items-center">
+                        <input type="text" placeholder="Search....">
+                        <i class="bx bx-search"></i>
+                    </div>
+
                 </div>
                 <div class="list">
-                    <table class="table">
+                    <table class="table table-layout-auto">
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>Jenis Categori</th>
+                                <th>Jenis Category</th>
                                 <th>Image</th>
                                 <th>Slug</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td>Obat Kesehatan</td>
-                                <td></td>
-                                <td>obat-kesehatan</td>
+                        <tbody class="table-bordered">
+                            <tr class="list-category">
+                                <td class="id-category"></td>
+                                <td class="jenis-category">Obat Kesehatan</td>
+                                <td class="image-categoty"><img src="{{ asset('img/Group 559.png') }}" alt=""></td>
+                                <td class="slug-category">obat-kesehatan</td>
                             </tr>
                             <tr>
                                 <td></td>

@@ -459,7 +459,47 @@ body.dark .switch::before{
     align-content: start;
 }
 
-.home .review-order .search-content{
+.home .content-list .search-category{
+    padding: 10px 20px;
+}
+.home .content-list .search-category i{
+    font-size: 20px;
+    padding: 1px 5px;
+}
+.home .content-list .search-category input{
+    outline: none;
+    border: none;
+    width: 220px;
+    height: 30px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* LIST TABEL CATEGORY */
+.home .content-list .list .id-category{
+    width: 5%;
+}
+.home .content-list .list .jenis-category{
+    width: 30%;
+}
+.home .content-list .list .image-category{
+    width: 30%;
+}
+.home .content-list .list .slug-category{
+    width: 30%;
+}
+.home .content-list .list .list-category{
+    vertical-align: middle;
+}
+.home .content-list .list img{
+    max-height: 50px;
+}
+/* END LIST TABEL CATEGORY */
+
+.home .review-order .search-order{
     background: #FFF;
     width: 600px;
     padding: 10px 20px;
@@ -469,7 +509,7 @@ body.dark .switch::before{
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
 }
-.home .review-order .search-content input{
+.home .review-order .search-order input{
     outline: none;
     border: none;
     width: 90%;

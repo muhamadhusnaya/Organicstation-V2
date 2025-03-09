@@ -33,11 +33,11 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="mb-3 content-input">
                                         <label for="name" class="form-label">Nama Produk</label>
-                                        <input type="text" class="form-control form-control-lg" id="name">
+                                        <input type="text" id="name" class="form-control form-control-lg">
                                     </div>
                                     <div class="mb-3 content-input">
                                         <label for="slug" class="form-label">Slug</label>
-                                        <input type="text" class="form-control form-control-lg" id="slug">
+                                        <input type="text" id="slug" class="form-control form-control-lg">
                                     </div>
                                 </div>
                                 <label for="description" class="form-label">Deskripsi</label>
@@ -47,7 +47,7 @@
                                 <span class="fw-bold">Upload Image Produk</span>
                                 <hr>
                                 <label for="formFileLg" class="form-label">Image</label>
-                                <input class="form-control form-control-lg w-100 input-imgproduct" id="image" type="file">
+                                <input type="file" id="image" class="form-control form-control-lg w-100 input-imgproduct">
                             </div>
                         </div>
                         <div class="flex-column mb-4 input-right">
@@ -55,13 +55,13 @@
                                 <span class="fw-bold">Harga Produk</span>
                                 <hr>
                                 <label for="price" class="form-label">Harga</label>
-                                <input type="text" class="form-control form-control-lg" id="price" style="width: 270px">
+                                <input type="text" id="price" class="form-control form-control-lg" style="width: 270px">
                             </div>
                             <div class="bg-light rounded-3 p-3 mb-2">
                                 <span class="fw-bold">Stok Produk</span>
                                 <hr>
                                 <label for="stock" class="form-label">Stok</label>
-                                <input type="text" class="form-control form-control-lg" id="stock" style="width: 270px">
+                                <input type="text" id="stock" class="form-control form-control-lg" style="width: 270px">
                             </div>
                             <div class="bg-light rounded-3 p-3 mb-2">
                                 <span class="fw-bold">Association</span>

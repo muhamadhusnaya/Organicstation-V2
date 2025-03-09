@@ -13,10 +13,9 @@ return new class extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->json('image');
-            $$table->enum('category_type', ['obat kesehatan', 'serum kesehatan']);
-            $table->string('slug');
-            $table->boolean('is_active')->default(true);
+            $table->string('slug')->unique();
+            $table->json('image')->nullable();
+            $table->enum('category_type', ['obat kesehatan', 'serum kesehatan']);
             $table->timestamps();
         });
     }
