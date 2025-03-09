@@ -16,19 +16,17 @@
 <body>
     <x-navbar></x-navbar>
     <section class="home">
+        <div class="text">Product</div>
         <div class="content mx-5">
-            <div class="content-top">
-                <div class="content-preview d-flex align-items-center py-2">
-                    <a href="{{ url ('admin/product') }}">Product</a>
-                    <i class='bx bx-chevrons-right'></i>
-                    <a href="{{ url ('admin/product-create') }}">Create Product</a>
-                </div>
-                <span class="title-content">Product</span>
+            <div class="content-preview d-flex align-items-center py-2">
+                <a href="{{ url ('admin/product') }}">Product</a>
+                <i class='bx bx-chevrons-right'></i>
+                <a href="{{ url ('admin/product-create') }}">Create Product</a>
             </div>
             <div class="content-form py-2 form">
                 <form action="">
                     <div class="d-flex">
-                        <div class="flex-column me-3 mb-1">
+                        <div class="flex-column me-3 mb-4">
                             <div class="bg-light p-4 rounded-3 input-product">
                                 <div class="d-flex justify-content-between">
                                     <div class="mb-3 content-input">
@@ -90,10 +88,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-button">
-                        <button type="submit" class="btn btn-primary">Save</button>
-                        <button type="button" class="btn btn-danger">Cancel</button>
                     </div>
                 </form>
             </div>

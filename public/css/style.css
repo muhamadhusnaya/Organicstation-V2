@@ -363,21 +363,15 @@ body.dark .switch::before{
     -o-transition: var(--tran-05);
 }
 
-.home .content-top{
-    height: auto;
-    width: 100vh;
-    margin-top: 20px;
+.home .text{
+    top: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 8px 40px;
 }
 
-.home .content-top a,
-.home .content-top i{
-    font-size: medium;
-}
-.home .content-top .title-content{
-    margin-bottom: 35px;
-    font-size: xx-large;
-    font-weight: 600;
-}
 
 .home .content .content-preview a{
     text-decoration: none;
@@ -390,33 +384,13 @@ body.dark .switch::before{
     padding: 1px 5px;
 }
 
-.home .content .content-list{
-    background: #FFF;
-    margin-top: 20px;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-}
-
-.home .content .content-list .list{
-    width: auto;
-    height: auto;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-}
-
 .home .content .content-form .input-category label{
     font-size: 18px;
     font-weight: 400;
 }
 
 .home .content .content-form .input-category input{
-    width: 455px;
+    width: 420px;
     border-radius: 6px;
     transition: var(--tran-04);
     -webkit-border-radius: 6px;
@@ -427,15 +401,6 @@ body.dark .switch::before{
     -moz-transition: var(--tran-04);
     -ms-transition: var(--tran-04);
     -o-transition: var(--tran-04);
-}
-
-.home .content .content-form .form-button {
-    padding: 20px 1px 10px;
-}
-
-.home .content .content-form .form-button button{
-    width: 120px;
-
 }
 
 .home .form .input-product{
@@ -448,11 +413,6 @@ body.dark .switch::before{
 }
 .home .form .input-product .content-input input{
     width: 300px;
-    transition: var(--tran-04);
-    -webkit-transition: var(--tran-04);
-    -moz-transition: var(--tran-04);
-    -ms-transition: var(--tran-04);
-    -o-transition: var(--tran-04);
 }
 .home .form .input-product .input-imgproduct{
     height: 190px;
@@ -531,7 +491,7 @@ body.dark .switch::before{
 }
 
 .sidebar.close ~ .home .content .content-form .input-category input{
-    width: 545px;
+    width: 510px;
 }
 
 .sidebar.close ~ .home .form .input-product{

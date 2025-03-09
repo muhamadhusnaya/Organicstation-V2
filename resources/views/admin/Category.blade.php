@@ -17,50 +17,8 @@
 <body>
     <x-navbar></x-navbar>
     <section class="home">
+        <div class="text">Category</div>
         <div class="content mx-5">
-            <div class="content-top">
-                <div class="content-preview d-flex align-items-center py-2">
-                    <a href="">Category</a>
-                    <i class="bx bx-chevrons-right"></i>
-                    <a href="">List</a>
-                </div>
-                <span class="title-content">Categories</span>
-            </div>
-            <div class="button-create">
-                <button type="button" class="btn btn-warning">Tambah Category</button>
-            </div>
-            <div class="content-list">
-                <div class="search-menu">
-                    <i class="bx bx-search"></i>
-                    <input type="text" placeholder="Search....">
-                </div>
-                <div class="list">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Jenis Categori</th>
-                                <th>Image</th>
-                                <th>Slug</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td>Obat Kesehatan</td>
-                                <td></td>
-                                <td>obat-kesehatan</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>Serum Kesehatan</td>
-                                <td></td>
-                                <td>serum-kesehatan</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
         </div>
     </section>
 
